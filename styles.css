@@ -10,12 +10,19 @@ h1{
 p{
     font-size: 10px;
 }
-
+main{
+    display: flex;
+    justify-content: center;
+}
 .headline{
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(100, 35, 35);
     border-radius: 20px;
-    align-items: center;
+    width: 992px;
+    margin: 40px;
+    
 }
 .heading{
     margin-left: 50px;
