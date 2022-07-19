@@ -1,0 +1,29 @@
+/* Top-Section Styling */
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 245, 233);
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 10px;
+}
+
+.headline{
+    display: flex;
+    background-color: rgb(100, 35, 35);
+    border-radius: 20px;
+    align-items: center;
+}
+.heading{
+    margin-left: 50px;
+}
+.read{
+    background-color: rgb(207, 97, 90);
+  border: none;
+  color: white;
+  padding: 12px 14px;
+  font-size: 14px;
+}
