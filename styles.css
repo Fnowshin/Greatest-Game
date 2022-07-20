@@ -16,7 +16,7 @@ main{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 100px;
+    
 }
 /*---------- Class- Section
 ------------------------- */
@@ -144,4 +144,103 @@ hr{
     justify-content: space-around;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+/*--------------------------------
+        Media Queris
+----------------------------------*/
+
+/* Mobile Devices */
+@media screen and (max-width:688px) {
+    main{
+        width: 100%;
+    }
+    .headline {
+        background-color: rgb(100, 35, 35);
+        display: flex;
+        flex-direction:column;
+        margin-left: 3%;
+        margin-bottom: 0;
+    }
+    .heading{
+        text-align: center;
+        text-overflow: ellipsis;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .read{
+        background-color: rgb(207, 97, 90);
+        border-radius: 10px;
+        color: white;
+        padding: 15px 20px;
+        font-size: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+    .container{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blogs{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blogs .banner img{
+        width: 384px;
+        height: 224px;
+        border-radius: 3%;
+    }
+    .btn{
+        background-color: white;
+        border: 5px solid;
+        border-radius: 10px;
+        color: black;
+        padding: 6px 25px;
+        margin-left: 5%;
+        font-size: 25px;
+    }
+    .info{
+        margin-left: 5%;
+        font-size: 25px;
+    }
+    .time{
+        display: flex;
+        font-size: 20px;
+        margin: 5%;
+    
+    }
+    .settings{
+        display: grid;
+        justify-content: center;
+    }
+    .sidebar{
+        background-color: black;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        padding: 0%;
+        margin-bottom: 7%;
+    }
+    .bar{
+        background-color: wheat;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px 40px;
+        margin-bottom: 20px;
+    }
+    .bar-3{
+        background-color: rgb(105, 52, 52);
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px 40px;
+        
+    }
+
 }
