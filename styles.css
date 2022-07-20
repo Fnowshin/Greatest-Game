@@ -14,7 +14,8 @@ p{
 main{
     display: flex;
     justify-content: center;
-    row-gap: 5%;
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 /*---------- Class- Section
 ------------------------- */
@@ -27,7 +28,6 @@ main{
     background-color: rgb(100, 35, 35);
     border-radius: 20px;
     width: 992px;
-    margin: 40px;
     
 }
 
@@ -36,20 +36,21 @@ main{
 }
 .read{
     background-color: rgb(207, 97, 90);
-  border: none;
-  color: white;
-  padding: 12px 14px;
-  font-size: 14px;
+    border: none;
+    color: white;
+    padding: 12px 14px;
+    font-size: 14px;
 }
 .writing {
-    border: 2px solid whitesmoke;
-    border-radius: 3%;
+    border: 1px solid rgb(12, 11, 11);
+    border-radius: 10px;
 }
 
 .blogs{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    grid-column-gap: 24px;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
 } 
 
 .blogs .banner img{
@@ -60,8 +61,8 @@ main{
 
 .btn{
     background-color: white;
-    border: 2px solid;
-    border-radius: 10%;
+    border: 5px solid;
+    border-radius: 10px;
     color: black;
     padding: 6px 20px;
     margin-left: 5%;
@@ -82,11 +83,11 @@ main{
 /*-------- Sidebar --------*/
 
 .sidebar {
-    border-radius: 10px;
+    border-radius: 5px;
     margin-right: 20px;
-    padding: 20px 20px;
+    padding: 18px 16px;
     width: 222px;
-    height: 150px;
+    height: 158px;
     background-color:rgb(100, 35, 35);
   }
 
@@ -102,4 +103,15 @@ main{
     text-align: center;
     padding: 10px 40px;
     margin-bottom: 20px;
+}
+footer{
+    background-color: rgb(100, 35, 35);
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.footer1{
+    font-size: 28px;
 }
